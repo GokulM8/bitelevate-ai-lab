@@ -1,0 +1,101 @@
+text,category
+"I was charged twice for my subscription this month",BILLING
+"Please send me an invoice for last month's payment",BILLING
+"I need a refund for the annual plan I bought by mistake",BILLING
+"Why was my credit card billed 49 dollars when the plan costs 29",BILLING
+"Can you update the billing address on my invoices",BILLING
+"My receipt shows the wrong tax amount",BILLING
+"I cancelled my subscription but you still charged me",BILLING
+"How do I apply a coupon code to my renewal",BILLING
+"The pricing page says 20 per seat but my invoice says 25",BILLING
+"Payment declined even though my card is valid",BILLING
+"I want to switch from monthly to yearly billing",BILLING
+"Please refund the duplicate charge from March",BILLING
+"Where can I download my past invoices",BILLING
+"My company needs a GST invoice for the last quarter",BILLING
+"I was overcharged after upgrading my plan",BILLING
+"The renewal price doubled without any notice",BILLING
+"Can I pay by bank transfer instead of credit card",BILLING
+"I never received a receipt for my payment",BILLING
+"Please cancel auto renewal on my subscription",BILLING
+"Charged in USD but I expected INR pricing",BILLING
+"Need a refund because the service was down all week",BILLING
+"How much will I pay if I add five more users",BILLING
+"My bill this month looks higher than usual",BILLING
+"Money was taken from my account twice",BILLING
+"I want to downgrade my plan to save costs",BILLING
+"I forgot my password and the reset email never arrives",AUTH
+"I am locked out of my account after too many attempts",AUTH
+"Two-factor code is not being delivered to my phone",AUTH
+"Cannot log in with my Google account",AUTH
+"Login page says invalid credentials but my password is correct",AUTH
+"How do I enable 2FA on my account",AUTH
+"My session expired every few minutes and I have to sign in again",AUTH
+"SSO login with Okta redirects me back to the login page",AUTH
+"I got an unauthorized message when opening my dashboard",AUTH
+"The verification code expired before I could enter it",AUTH
+"Please reset my password",AUTH
+"Unable to sign in after changing my email address",AUTH
+"Authentication fails when I use my work account",AUTH
+"OTP sms arrives late so I cannot log in",AUTH
+"My token expired and I cannot get a new one",AUTH
+"I want to change my password but the settings page will not let me",AUTH
+"Account locked out after I travelled abroad",AUTH
+"Login with Apple ID keeps failing",AUTH
+"Need to disable two-factor because I lost my phone",AUTH
+"I keep getting 401 when I call the login endpoint",AUTH
+"Cannot access my account",AUTH
+"My profile says I am not allowed to view this page",AUTH
+"Someone else may have accessed my account",AUTH
+"Cannot get into the app since yesterday",AUTH
+"Invite link says my user does not exist",AUTH
+"The app crashes every time I open the reports page",TECHNICAL
+"API returns a 500 error when I upload a file",TECHNICAL
+"Dashboard is very slow to load for large accounts",TECHNICAL
+"We found a bug where filters reset after saving",TECHNICAL
+"Webhook deliveries are failing with a timeout",TECHNICAL
+"Export to CSV fails with an exception in the logs",TECHNICAL
+"Page not loading on Safari",TECHNICAL
+"High latency on the search endpoint since the last deploy",TECHNICAL
+"Integration with Slack stopped posting messages",TECHNICAL
+"I see a stack trace instead of the settings page",TECHNICAL
+"Bulk import crashes after 1000 rows",TECHNICAL
+"API rate limit errors during peak hours",TECHNICAL
+"Mobile app freezes when syncing data",TECHNICAL
+"Search returns wrong results for exact matches",TECHNICAL
+"Emails from the platform are delayed by hours",TECHNICAL
+"Charts show no data after the update",TECHNICAL
+"The deploy pipeline fails at the build step",TECHNICAL
+"Timeout when generating the monthly report",TECHNICAL
+"Getting a broken page after clicking save",TECHNICAL
+"The API docs example throws an exception",TECHNICAL
+"Notifications are not working",TECHNICAL
+"Dark mode makes text unreadable on the settings page",TECHNICAL
+"Our integration is sending duplicate events",TECHNICAL
+"App is slow when many users are online",TECHNICAL
+"Upload keeps failing for files above 10 MB",TECHNICAL
+"My printer prints blank pages",HARDWARE
+"The barcode scanner does not connect over bluetooth",HARDWARE
+"Laptop battery drains within an hour",HARDWARE
+"USB port stopped detecting my device",HARDWARE
+"The router keeps rebooting every few minutes",HARDWARE
+"Keyboard keys are not responding",HARDWARE
+"Screen flickers when I plug in the charger",HARDWARE
+"Sensor on the delivery tablet gives wrong readings",HARDWARE
+"Monitor shows no signal after the update",HARDWARE
+"Device is overheating during long calls",HARDWARE
+"Replacement cable needed for the docking station",HARDWARE
+"Receipt printer jams on every second print",HARDWARE
+"The charger gets very hot",HARDWARE
+"Bluetooth headset keeps disconnecting",HARDWARE
+"Laptop screen has dead pixels",HARDWARE
+"USB cable broke at the connector",HARDWARE
+"My scanner is not reading QR codes",HARDWARE
+"Router lost wifi signal in the office",HARDWARE
+"Hardware kit arrived with a missing power adapter",HARDWARE
+"Touchpad is not responding",HARDWARE
+"Camera on the terminal shows a black image",HARDWARE
+"The kiosk does not turn on",HARDWARE
+"Speaker makes a crackling noise",HARDWARE
+"Tablet will not charge",HARDWARE
+"My device is overheating",HARDWARE
