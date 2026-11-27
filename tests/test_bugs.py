@@ -81,8 +81,7 @@ def client():
 
 
 @pytest.mark.parametrize("query", ["???", "!!! ... ???", "", "   "])
-def test_search_endpoint_survives_punctuation_and_empty_queries(client, query):
+def test_search_endpoint_rejects_punctuation_and_empty_queries(client, query):
     response = client.get("/api/v1/knowledge-base/search", params={"query": query})
-    assert response.status_code in (200, 422)  # a crash would surface as a 500
-    if response.status_code == 200:
-        assert all(-1.0 <= item["similarity_score"] <= 1.0 for item in response.json())
+    assert response.status_code == 400
+    assert response.json()["detail"] == "Please enter meaningful search keywords"
